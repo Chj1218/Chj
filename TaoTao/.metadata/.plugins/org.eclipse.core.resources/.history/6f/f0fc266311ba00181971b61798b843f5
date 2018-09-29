@@ -1,0 +1,16 @@
+package com.taotao.manager.service.impl;
+
+import com.taotao.manager.service.ItemService;
+import com.taotao.pojo.TbItem;
+import com.taotao.pojo.TbItemDesc;
+import com.taotao.pojo.TbItemParam;
+
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public void save(TbItem item, TbItemParam itemParam, TbItemDesc itemDesc) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}

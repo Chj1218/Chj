@@ -1,0 +1,26 @@
+package com.taotao.dao.test;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.taotao.mapper.TbItemCatMapper;
+import com.taotao.pojo.TbItemCat;
+
+public class ItemCatMapperTest {
+	
+	
+	@Test
+	public void testSelect() {
+		
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("spring/applicationContext-dao.xml");
+		
+		TbItemCatMapper mapper = ctx.getBean(TbItemCatMapper.class);
+		
+		TbItemCat cat = mapper.selectByPrimaryKey(0L);
+		
+		System.out.println("cat="+cat);
+		
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.taotao.easyui;
+
+import java.util.List;
+
+public class EasyUIDataGridResult<T> {
+	private Long total;
+	private List<T> rows; 
+	
+}

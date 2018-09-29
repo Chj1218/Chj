@@ -1,0 +1,7 @@
+package com.taotao.util;
+
+public interface FileWriter {
+	
+	FileWriterResult write(MultpartFile file); 
+	
+}

@@ -1,0 +1,61 @@
+package com.taotao.util;
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class LocalFileWriter implements FileWriter {
+	private String fileRootDirectory;
+	private String url;
+	
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getFileRootDirectory() {
+		return fileRootDirectory;
+	}
+
+	public void setFileRootDirectory(String fileRootDirectory) {
+		this.fileRootDirectory = fileRootDirectory;
+	}
+
+	@Override
+	public FileWriteResult write(byte[] bytes, String dir, String extName) {
+		String parentDir = fileRootDirectory+"/"+dir;
+		File parentFile = new File(parentDir);
+		if(parentFile.exists()==false) {
+			parentFile.mkdirs();
+		}
+		Date date = new Date();
+		DateFormat format = new SimpleDateFormat("yyyy-MM-dd-hh-mm-ss");
+		String fileName = format.format(date);
+		fileName = fileName+"."+extName;
+		File target = new File(parentFile, fileName);
+		FileWriteResult result = new FileWriteResult();
+		try {
+			OutputStream out = new BufferedOutputStream(new FileOutputStream(target));
+			out.close();
+			result.setError(0);
+			result.setUrl( this.url+fileName );
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		return null;
+	}
+
+}

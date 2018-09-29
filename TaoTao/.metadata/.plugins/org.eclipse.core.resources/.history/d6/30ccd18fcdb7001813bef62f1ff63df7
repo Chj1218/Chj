@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    	http://www.springframework.org/schema/context
+    	http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://mybatis.org/schema/mybatis-spring 
+        http://mybatis.org/schema/mybatis-spring.xsd
+        ">
+
+	<!-- 
+		dataSource
+		sqlSessionFactory
+		TransactionManager
+		注解开启
+		
+	 -->
+	
+	<context:property-placeholder location="classpath:prop/jdbc.properties"/>
+
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="username" value="${username}"></property>
+		<property name="password" value="${password}"></property>
+		<property name="driverClass" value="${driverClass}"></property>
+		<property name="jdbcUrl" value="${jdbcUrl}"></property>
+	</bean>
+
+    
+    <mybatis:scan base-package="com.taotao.mapper"/>
+   
+</beans>

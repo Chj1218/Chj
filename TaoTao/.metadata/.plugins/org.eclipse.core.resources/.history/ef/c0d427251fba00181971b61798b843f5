@@ -1,0 +1,15 @@
+package com.taotao.manager.service.impl;
+
+import com.taotao.easyui.EasyUIDataGridResult;
+import com.taotao.manager.service.ItemParamService;
+import com.taotao.pojo.ItemParamBean;
+
+public class ItemParamServiceImpl implements ItemParamService {
+
+	@Override
+	public EasyUIDataGridResult<ItemParamBean> list(Integer page, Integer rows) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

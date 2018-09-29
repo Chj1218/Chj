@@ -1,0 +1,5 @@
+package com.taotao.json.result;
+
+public class ItemSaveResult {
+
+}

@@ -1,0 +1,54 @@
+package com.taotao.manager.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.taotao.json.result.ItemSaveResult;
+import com.taotao.manager.service.ItemCatService;
+import com.taotao.ui.form.bean.ItemFormBean;
+/*
+	cid=[3]
+title=[aaaaaa]
+sellPoint=[aaaaaa]
+priceView=[12.00]
+price=[1200]
+num=[23]
+barcode=[1122111]
+image=[http://localhost/download/upload/image/2018-09-15-06-44-51-71020c7b-e629-4635-90f3-0bd7eeb383e7.jpg]
+desc=
+itemParams=[]
+
+* */
+@Controller
+@RequestMapping("/item")
+public class ItemController {
+
+	@Autowired
+	private ItemService itemService; 
+	
+	@RequestMapping("/save")
+	@ResponseBody
+	public ItemSaveResult  save(@ModelAttribute ItemFormBean itemFormBean)throws Exception{	
+		itemService.save(itemFormBean.item(),itemFormBean.itemParam(),itemFormBean.itemDesc());
+		return ItemSaveResult.OK;
+	}
+	
+	@ExceptionHandler
+	@ResponseBody
+	public ItemSaveResult saveExceptionHandle() {
+		return ItemSaveResult.FAILED;
+	}
+	
+	/*public ItemDeleteResult delete()throws Exception{
+		
+	}*/
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.taotao.manager.service;
+
+public interface ItemService {
+	void save(TbItem item, TbItemParam itemParam,TbItemDesc itemDesc) throws Exception;
+}

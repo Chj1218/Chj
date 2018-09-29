@@ -1,0 +1,31 @@
+package com.taotao.manager.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.taotao.easyui.EasyUIDataGridResult;
+import com.taotao.manager.service.ItemParamService;
+import com.taotao.mapper.TbItemParamMapper;
+import com.taotao.mapper.wrapper.PageParamWrapper;
+import com.taotao.pojo.ItemParamBean;
+
+public class ItemParamServiceImpl implements ItemParamService {
+	
+	@Autowired
+	private TbItemParamMapper itemParamMapper;
+	
+	@Override
+	public EasyUIDataGridResult<ItemParamBean> list(Integer page, Integer rows) {
+		PageParamWrapper wrapper = new PageParamWrapper();
+		wrapper.setPage(page);
+		wrapper.setRows(rows);
+		List<ItemParamBean> list = itemParamMapper.list(wrapper);
+		EasyUIDataGridResult<ItemParamBean> result = new EasyUIDataGridResult<>();
+		result.setRows(list);
+		
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

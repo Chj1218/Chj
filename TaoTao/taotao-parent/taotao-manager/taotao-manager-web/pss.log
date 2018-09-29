@@ -1,0 +1,544 @@
+2018-09-18 09:21:11,814 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/{page}]}" onto public java.lang.String com.taotao.manager.controller.PageController.page(java.lang.String)
+2018-09-18 09:21:11,815 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/]}" onto public java.lang.String com.taotao.manager.controller.PageController.page2(javax.servlet.http.HttpServletRequest)
+2018-09-18 09:21:11,820 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - 1 request handler methods found on class com.taotao.manager.controller.PicController: {public com.taotao.json.result.PicUploadResult com.taotao.manager.controller.PicController.upload(org.springframework.web.multipart.MultipartFile,java.lang.String) throws java.io.IOException={[/pic/upload],methods=[POST]}}
+2018-09-18 09:21:11,821 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/pic/upload],methods=[POST]}" onto public com.taotao.json.result.PicUploadResult com.taotao.manager.controller.PicController.upload(org.springframework.web.multipart.MultipartFile,java.lang.String) throws java.io.IOException
+2018-09-18 09:21:11,822 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2018-09-18 09:21:11,822 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2018-09-18 09:21:11,822 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-09-18 09:21:11,822 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2018-09-18 09:21:11,822 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2018-09-18 09:21:12,064 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' to allow for resolving potential circular references
+2018-09-18 09:21:12,079 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-18 09:21:12,079 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4390ae29'
+2018-09-18 09:21:12,088 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-09-18 09:21:12,088 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4390ae29'
+2018-09-18 09:21:12,089 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#3f53aa98'
+2018-09-18 09:21:12,099 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#3f53aa98'
+2018-09-18 09:21:12,099 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#753d73cf'
+2018-09-18 09:21:12,103 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#753d73cf'
+2018-09-18 09:21:12,104 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#ed18dc2'
+2018-09-18 09:21:12,108 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#ed18dc2'
+2018-09-18 09:21:12,108 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4071ed1f'
+2018-09-18 09:21:12,117 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4071ed1f'
+2018-09-18 09:21:12,118 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4d8228f3'
+2018-09-18 09:21:12,123 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4d8228f3'
+2018-09-18 09:21:12,123 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1b5fbbcd'
+2018-09-18 09:21:12,132 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1b5fbbcd'
+2018-09-18 09:21:12,132 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#2ab76007'
+2018-09-18 09:21:12,142 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#2ab76007'
+2018-09-18 09:21:12,142 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1d39001a'
+2018-09-18 09:21:12,143 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#599c121'
+2018-09-18 09:21:12,152 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name '(inner bean)#599c121'
+2018-09-18 09:21:12,154 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#599c121'
+2018-09-18 09:21:12,161 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1d39001a'
+2018-09-18 09:21:12,161 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#763c11df'
+2018-09-18 09:21:12,166 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#763c11df'
+2018-09-18 09:21:12,167 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#413507a'
+2018-09-18 09:21:12,176 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#413507a'
+2018-09-18 09:21:12,178 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2018-09-18 09:21:12,178 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-web-servlet': startup date [Tue Sep 18 09:21:11 CST 2018]; parent: Root WebApplicationContext
+2018-09-18 09:21:12,221 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2018-09-18 09:21:12,221 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2018-09-18 09:21:12,221 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'mvcUriComponentsContributor'
+2018-09-18 09:21:12,222 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2018-09-18 09:21:12,225 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#21e0beda'
+2018-09-18 09:21:12,230 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-18 09:21:12,230 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4390ae29#1'
+2018-09-18 09:21:12,231 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-09-18 09:21:12,232 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4390ae29#1'
+2018-09-18 09:21:12,232 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#3f53aa98#1'
+2018-09-18 09:21:12,233 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#3f53aa98#1'
+2018-09-18 09:21:12,234 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#753d73cf#1'
+2018-09-18 09:21:12,235 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#753d73cf#1'
+2018-09-18 09:21:12,235 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#ed18dc2#1'
+2018-09-18 09:21:12,237 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#ed18dc2#1'
+2018-09-18 09:21:12,237 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4071ed1f#1'
+2018-09-18 09:21:12,238 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4071ed1f#1'
+2018-09-18 09:21:12,238 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4d8228f3#1'
+2018-09-18 09:21:12,239 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4d8228f3#1'
+2018-09-18 09:21:12,240 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1b5fbbcd#1'
+2018-09-18 09:21:12,243 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1b5fbbcd#1'
+2018-09-18 09:21:12,244 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#2ab76007#1'
+2018-09-18 09:21:12,245 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#2ab76007#1'
+2018-09-18 09:21:12,245 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1d39001a#1'
+2018-09-18 09:21:12,246 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#599c121#1'
+2018-09-18 09:21:12,246 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name '(inner bean)#599c121#1'
+2018-09-18 09:21:12,249 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#599c121#1'
+2018-09-18 09:21:12,250 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1d39001a#1'
+2018-09-18 09:21:12,251 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#763c11df#1'
+2018-09-18 09:21:12,251 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#763c11df#1'
+2018-09-18 09:21:12,252 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#413507a#1'
+2018-09-18 09:21:12,252 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#413507a#1'
+2018-09-18 09:21:12,253 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name '(inner bean)#21e0beda'
+2018-09-18 09:21:12,253 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-web-servlet': startup date [Tue Sep 18 09:21:11 CST 2018]; parent: Root WebApplicationContext
+2018-09-18 09:21:12,257 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#21e0beda'
+2018-09-18 09:21:12,257 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-09-18 09:21:12,258 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+2018-09-18 09:21:12,258 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'mvcUriComponentsContributor'
+2018-09-18 09:21:12,259 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-09-18 09:21:12,259 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-09-18 09:21:12,259 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-09-18 09:21:12,265 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,281 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-18 09:21:12,282 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#3f53aa98#2'
+2018-09-18 09:21:12,283 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#3f53aa98#2'
+2018-09-18 09:21:12,283 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#753d73cf#2'
+2018-09-18 09:21:12,284 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#753d73cf#2'
+2018-09-18 09:21:12,285 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#ed18dc2#2'
+2018-09-18 09:21:12,286 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#ed18dc2#2'
+2018-09-18 09:21:12,286 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4071ed1f#2'
+2018-09-18 09:21:12,287 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4071ed1f#2'
+2018-09-18 09:21:12,287 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#4d8228f3#2'
+2018-09-18 09:21:12,289 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#4d8228f3#2'
+2018-09-18 09:21:12,289 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1b5fbbcd#2'
+2018-09-18 09:21:12,293 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1b5fbbcd#2'
+2018-09-18 09:21:12,293 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#2ab76007#2'
+2018-09-18 09:21:12,294 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#2ab76007#2'
+2018-09-18 09:21:12,295 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1d39001a#2'
+2018-09-18 09:21:12,295 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#599c121#2'
+2018-09-18 09:21:12,296 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name '(inner bean)#599c121#2'
+2018-09-18 09:21:12,299 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#599c121#2'
+2018-09-18 09:21:12,343 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1d39001a#2'
+2018-09-18 09:21:12,343 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean '(inner bean)#1f1d5f93'
+2018-09-18 09:21:12,344 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean '(inner bean)#1f1d5f93'
+2018-09-18 09:21:12,345 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-09-18 09:21:12,345 DEBUG [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Looking for exception mappings: WebApplicationContext for namespace 'taotao-manager-web-servlet': startup date [Tue Sep 18 09:21:11 CST 2018]; parent: Root WebApplicationContext
+2018-09-18 09:21:12,347 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-09-18 09:21:12,348 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-09-18 09:21:12,348 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-09-18 09:21:12,349 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,355 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-09-18 09:21:12,355 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-09-18 09:21:12,355 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-09-18 09:21:12,356 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,359 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-09-18 09:21:12,360 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-09-18 09:21:12,360 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-09-18 09:21:12,362 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+2018-09-18 09:21:12,372 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2018-09-18 09:21:12,373 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-09-18 09:21:12,373 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+2018-09-18 09:21:12,374 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Looking for URL mappings in application context: WebApplicationContext for namespace 'taotao-manager-web-servlet': startup date [Tue Sep 18 09:21:11 CST 2018]; parent: Root WebApplicationContext
+2018-09-18 09:21:12,375 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-09-18 09:21:12,375 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': no URL paths identified
+2018-09-18 09:21:12,375 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcCorsConfigurations': no URL paths identified
+2018-09-18 09:21:12,375 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+2018-09-18 09:21:12,376 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': no URL paths identified
+2018-09-18 09:21:12,376 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-09-18 09:21:12,376 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+2018-09-18 09:21:12,376 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+2018-09-18 09:21:12,376 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+2018-09-18 09:21:12,377 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+2018-09-18 09:21:12,377 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+2018-09-18 09:21:12,377 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+2018-09-18 09:21:12,377 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+2018-09-18 09:21:12,378 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2018-09-18 09:21:12,378 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0': no URL paths identified
+2018-09-18 09:21:12,378 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'com.taotao.util.LocalFileWriter#0': no URL paths identified
+2018-09-18 09:21:12,380 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'multipartResolver': no URL paths identified
+2018-09-18 09:21:12,380 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+2018-09-18 09:21:12,381 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-09-18 09:21:12,381 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#1': no URL paths identified
+2018-09-18 09:21:12,381 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-09-18 09:21:12,381 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-09-18 09:21:12,381 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': no URL paths identified
+2018-09-18 09:21:12,382 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+2018-09-18 09:21:12,382 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1': no URL paths identified
+2018-09-18 09:21:12,382 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1': no URL paths identified
+2018-09-18 09:21:12,382 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2': no URL paths identified
+2018-09-18 09:21:12,382 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2': no URL paths identified
+2018-09-18 09:21:12,383 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'itemCatController': no URL paths identified
+2018-09-18 09:21:12,383 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'itemController': no URL paths identified
+2018-09-18 09:21:12,383 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'itemParamController': no URL paths identified
+2018-09-18 09:21:12,383 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'pageController': no URL paths identified
+2018-09-18 09:21:12,383 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'picController': no URL paths identified
+2018-09-18 09:21:12,384 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-09-18 09:21:12,384 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-09-18 09:21:12,384 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-09-18 09:21:12,384 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-09-18 09:21:12,385 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-09-18 09:21:12,385 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-09-18 09:21:12,385 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'environment': no URL paths identified
+2018-09-18 09:21:12,385 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'systemProperties': no URL paths identified
+2018-09-18 09:21:12,385 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'systemEnvironment': no URL paths identified
+2018-09-18 09:21:12,386 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'servletConfig': no URL paths identified
+2018-09-18 09:21:12,386 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-09-18 09:21:12,386 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'messageSource': no URL paths identified
+2018-09-18 09:21:12,386 DEBUG [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-09-18 09:21:12,386 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-09-18 09:21:12,387 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-09-18 09:21:12,387 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-09-18 09:21:12,387 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+2018-09-18 09:21:12,390 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-09-18 09:21:12,390 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-09-18 09:21:12,390 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-09-18 09:21:12,391 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+2018-09-18 09:21:12,394 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-09-18 09:21:12,394 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-09-18 09:21:12,394 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'com.taotao.util.LocalFileWriter#0'
+2018-09-18 09:21:12,394 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'com.taotao.util.LocalFileWriter#0'
+2018-09-18 09:21:12,396 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'com.taotao.util.LocalFileWriter#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,401 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'com.taotao.util.LocalFileWriter#0'
+2018-09-18 09:21:12,401 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'multipartResolver'
+2018-09-18 09:21:12,401 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'multipartResolver'
+2018-09-18 09:21:12,414 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'multipartResolver' to allow for resolving potential circular references
+2018-09-18 09:21:12,422 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'multipartResolver'
+2018-09-18 09:21:12,423 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-09-18 09:21:12,424 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-09-18 09:21:12,435 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,446 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-09-18 09:21:12,447 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2018-09-18 09:21:12,447 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'mvcResourceUrlProvider'
+2018-09-18 09:21:12,447 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+2018-09-18 09:21:12,448 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'mvcResourceUrlProvider'
+2018-09-18 09:21:12,448 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+2018-09-18 09:21:12,448 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'mvcPathMatcher'
+2018-09-18 09:21:12,448 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'mvcPathMatcher'
+2018-09-18 09:21:12,449 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+2018-09-18 09:21:12,454 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'mvcPathMatcher'
+2018-09-18 09:21:12,454 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,455 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,455 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+2018-09-18 09:21:12,458 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,459 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-09-18 09:21:12,459 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-09-18 09:21:12,462 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,471 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,472 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-18 09:21:12,472 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-09-18 09:21:12,475 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-09-18 09:21:12,475 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-09-18 09:21:12,476 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-09-18 09:21:12,477 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+2018-09-18 09:21:12,483 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcPathMatcher'
+2018-09-18 09:21:12,484 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,484 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2018-09-18 09:21:12,485 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-09-18 09:21:12,485 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+2018-09-18 09:21:12,487 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-09-18 09:21:12,487 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-09-18 09:21:12,488 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-09-18 09:21:12,488 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-09-18 09:21:12,488 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-09-18 09:21:12,490 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1' to allow for resolving potential circular references
+2018-09-18 09:21:12,491 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,492 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-18 09:21:12,492 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-09-18 09:21:12,493 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-09-18 09:21:12,493 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+2018-09-18 09:21:12,493 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+2018-09-18 09:21:12,494 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1' to allow for resolving potential circular references
+2018-09-18 09:21:12,495 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcPathMatcher'
+2018-09-18 09:21:12,495 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,495 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2018-09-18 09:21:12,496 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-09-18 09:21:12,496 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+2018-09-18 09:21:12,497 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-09-18 09:21:12,497 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-09-18 09:21:12,497 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+2018-09-18 09:21:12,498 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-09-18 09:21:12,498 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-09-18 09:21:12,500 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2' to allow for resolving potential circular references
+2018-09-18 09:21:12,500 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,501 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-18 09:21:12,501 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-09-18 09:21:12,502 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-09-18 09:21:12,502 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+2018-09-18 09:21:12,502 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+2018-09-18 09:21:12,504 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2' to allow for resolving potential circular references
+2018-09-18 09:21:12,504 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcPathMatcher'
+2018-09-18 09:21:12,505 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-18 09:21:12,505 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2018-09-18 09:21:12,506 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-09-18 09:21:12,506 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+2018-09-18 09:21:12,506 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-09-18 09:21:12,507 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-09-18 09:21:12,507 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+2018-09-18 09:21:12,507 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'itemCatController'
+2018-09-18 09:21:12,507 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'itemCatController'
+2018-09-18 09:21:12,512 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Registered injected element on class [com.taotao.manager.controller.ItemCatController]: AutowiredFieldElement for private com.taotao.manager.service.ItemCatService com.taotao.manager.controller.ItemCatController.itemCatService
+2018-09-18 09:21:12,513 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'itemCatController' to allow for resolving potential circular references
+2018-09-18 09:21:12,515 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Processing injected element of bean 'itemCatController': AutowiredFieldElement for private com.taotao.manager.service.ItemCatService com.taotao.manager.controller.ItemCatController.itemCatService
+2018-09-18 09:21:12,520 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'itemCatService'
+2018-09-18 09:21:12,576 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adaptive implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,596 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-taotao-manager-web-224.5.6.7:1234.cache, data: {com.taotao.manager.service.ItemParamService=dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7364&side=provider&timestamp=1537232982203 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=4012&side=provider&timestamp=1537232924052 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=4928&side=provider&timestamp=1537233056881 dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7876&side=provider&timestamp=1537232831858, com.taotao.manager.service.ItemService=dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=4012&side=provider&timestamp=1537232921277 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7364&side=provider&timestamp=1537232979577 dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7876&side=provider&timestamp=1537232832925 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=4928&side=provider&timestamp=1537233054303, com.taotao.manager.service.ItemCatService=dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7876&side=provider&timestamp=1537232830167 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=4012&side=provider&timestamp=1537232923008 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=4928&side=provider&timestamp=1537233055846 dubbo://192.168.31.107:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7364&side=provider&timestamp=1537232981148}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,611 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adaptive implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,624 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adaptive implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,634 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Register: consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,634 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Send broadcast message: register consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527 to /224.5.6.7:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,635 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Subscribe: consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,636 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Send broadcast message: subscribe consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527 to /224.5.6.7:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,636 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: register consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,643 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: subscribe consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,644 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: register dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=1616&side=provider&timestamp=1537233602539 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,644 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527, urls: [dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=1616&side=provider&timestamp=1537233602539], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,684 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adaptive implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.remoting.RemotingException {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.remoting.RemotingException {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,755 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adaptive implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,776 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adaptive implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,907 INFO [com.alibaba.dubbo.remoting.transport.AbstractClient] -  [DUBBO] Successed connect to server /192.168.31.52:20880 from NettyClient 192.168.31.52 using dubbo version 2.6.3, channel is NettyChannel [channel=[id: 0x1dcaa45e, /192.168.31.52:51461 => /192.168.31.52:20880]], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,908 INFO [com.alibaba.dubbo.remoting.transport.AbstractClient] -  [DUBBO] Start NettyClient SKY-20171221KXR/192.168.31.52 connect to the server /192.168.31.52:20880, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,948 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adaptive implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.rpc.Invocation arg1) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+if (arg1 == null) throw new IllegalArgumentException("invocation == null");
+String methodName = arg1.getMethodName();
+String extName = url.getMethodParameter(methodName, "cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0, arg1);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,982 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adaptive implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:12,997 DEBUG [com.alibaba.dubbo.common.extension.ExtensionLoader] -  [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adaptive implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,021 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.52/com.taotao.manager.service.ItemCatService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527, urls: [dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemCatService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=1616&side=provider&timestamp=1537233602539], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,028 INFO [com.alibaba.dubbo.config.AbstractConfig] -  [DUBBO] Refer dubbo service com.taotao.manager.service.ItemCatService from url multicast://224.5.6.7:1234/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=taotao-manager-web&check=false&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemCatService&methods=list&pid=7312&register.ip=192.168.31.52&remote.timestamp=1537233602539&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233672527, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,038 DEBUG [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'itemCatController' to bean named 'itemCatService'
+2018-09-18 09:21:13,039 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'itemCatController'
+2018-09-18 09:21:13,039 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'itemController'
+2018-09-18 09:21:13,039 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'itemController'
+2018-09-18 09:21:13,040 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Registered injected element on class [com.taotao.manager.controller.ItemController]: AutowiredFieldElement for private com.taotao.manager.service.ItemService com.taotao.manager.controller.ItemController.itemService
+2018-09-18 09:21:13,041 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'itemController' to allow for resolving potential circular references
+2018-09-18 09:21:13,043 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Processing injected element of bean 'itemController': AutowiredFieldElement for private com.taotao.manager.service.ItemService com.taotao.manager.controller.ItemController.itemService
+2018-09-18 09:21:13,044 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'itemService'
+2018-09-18 09:21:13,056 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Register: consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,057 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Send broadcast message: register consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046 to /224.5.6.7:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,057 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Subscribe: consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,058 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Send broadcast message: subscribe consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046 to /224.5.6.7:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,078 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: register consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,078 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: subscribe consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,079 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: register dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=1616&side=provider&timestamp=1537233600868 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,079 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046, urls: [dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=1616&side=provider&timestamp=1537233600868], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,080 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.52/com.taotao.manager.service.ItemService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046, urls: [dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=1616&side=provider&timestamp=1537233600868], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,081 INFO [com.alibaba.dubbo.config.AbstractConfig] -  [DUBBO] Refer dubbo service com.taotao.manager.service.ItemService from url multicast://224.5.6.7:1234/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=taotao-manager-web&check=false&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemService&methods=save,list&pid=7312&register.ip=192.168.31.52&remote.timestamp=1537233600868&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673046, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,084 DEBUG [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'itemController' to bean named 'itemService'
+2018-09-18 09:21:13,085 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'itemController'
+2018-09-18 09:21:13,085 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'itemParamController'
+2018-09-18 09:21:13,085 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'itemParamController'
+2018-09-18 09:21:13,086 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Registered injected element on class [com.taotao.manager.controller.ItemParamController]: AutowiredFieldElement for private com.taotao.manager.service.ItemParamService com.taotao.manager.controller.ItemParamController.itemParamService
+2018-09-18 09:21:13,087 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'itemParamController' to allow for resolving potential circular references
+2018-09-18 09:21:13,090 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Processing injected element of bean 'itemParamController': AutowiredFieldElement for private com.taotao.manager.service.ItemParamService com.taotao.manager.controller.ItemParamController.itemParamService
+2018-09-18 09:21:13,091 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'itemParamService'
+2018-09-18 09:21:13,106 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Register: consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,107 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Send broadcast message: register consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094 to /224.5.6.7:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,107 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Subscribe: consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,108 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Send broadcast message: subscribe consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094 to /224.5.6.7:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,118 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: register consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=consumers&check=false&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,130 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: subscribe consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,131 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Receive multicast message: register dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=1616&side=provider&timestamp=1537233603601 from /192.168.31.52:1234, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,131 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094, urls: [dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=1616&side=provider&timestamp=1537233603601], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,132 INFO [com.alibaba.dubbo.registry.multicast.MulticastRegistry] -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.52/com.taotao.manager.service.ItemParamService?application=taotao-manager-web&category=providers,configurators,routers&dubbo=2.0.2&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094, urls: [dubbo://192.168.31.52:20880/com.taotao.manager.service.ItemParamService?anyhost=true&application=taotao-manager-service&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=1616&side=provider&timestamp=1537233603601], dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,133 INFO [com.alibaba.dubbo.config.AbstractConfig] -  [DUBBO] Refer dubbo service com.taotao.manager.service.ItemParamService from url multicast://224.5.6.7:1234/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=taotao-manager-web&check=false&dubbo=2.0.2&generic=false&interface=com.taotao.manager.service.ItemParamService&methods=list&pid=7312&register.ip=192.168.31.52&remote.timestamp=1537233603601&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1537233673094, dubbo version: 2.6.3, current host: 192.168.31.52
+2018-09-18 09:21:13,135 DEBUG [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'itemParamController' to bean named 'itemParamService'
+2018-09-18 09:21:13,136 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'itemParamController'
+2018-09-18 09:21:13,136 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'pageController'
+2018-09-18 09:21:13,136 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'pageController'
+2018-09-18 09:21:13,137 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'pageController' to allow for resolving potential circular references
+2018-09-18 09:21:13,140 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'pageController'
+2018-09-18 09:21:13,140 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'picController'
+2018-09-18 09:21:13,140 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'picController'
+2018-09-18 09:21:13,141 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Registered injected element on class [com.taotao.manager.controller.PicController]: AutowiredFieldElement for private com.taotao.util.FileWriter com.taotao.manager.controller.PicController.fileWriter
+2018-09-18 09:21:13,142 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'picController' to allow for resolving potential circular references
+2018-09-18 09:21:13,144 DEBUG [org.springframework.beans.factory.annotation.InjectionMetadata] - Processing injected element of bean 'picController': AutowiredFieldElement for private com.taotao.util.FileWriter com.taotao.manager.controller.PicController.fileWriter
+2018-09-18 09:21:13,145 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'com.taotao.util.LocalFileWriter#0'
+2018-09-18 09:21:13,145 DEBUG [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'picController' to bean named 'com.taotao.util.LocalFileWriter#0'
+2018-09-18 09:21:13,145 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'picController'
+2018-09-18 09:21:13,146 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-18 09:21:13,146 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-18 09:21:13,146 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-18 09:21:13,147 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-18 09:21:13,147 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-18 09:21:13,147 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-18 09:21:13,149 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-09-18 09:21:13,153 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-18 09:21:13,154 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-18 09:21:13,154 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-18 09:21:13,154 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-09-18 09:21:13,159 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-18 09:21:13,159 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-18 09:21:13,188 DEBUG [org.springframework.web.context.support.XmlWebApplicationContext] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@418a943b]
+2018-09-18 09:21:13,189 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-09-18 09:21:13,189 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2018-09-18 09:21:13,192 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'multipartResolver'
+2018-09-18 09:21:13,192 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Using MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@6752d561]
+2018-09-18 09:21:13,193 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-09-18 09:21:13,198 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-09-18 09:21:13,199 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@774410ee]
+2018-09-18 09:21:13,200 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-09-18 09:21:13,207 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-09-18 09:21:13,208 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@1c345de]
+2018-09-18 09:21:13,208 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2018-09-18 09:21:13,209 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-09-18 09:21:13,209 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-09-18 09:21:13,209 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+2018-09-18 09:21:13,209 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+2018-09-18 09:21:13,210 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2018-09-18 09:21:13,210 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-09-18 09:21:13,210 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-09-18 09:21:13,211 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-09-18 09:21:13,211 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-09-18 09:21:13,211 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-09-18 09:21:13,212 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-09-18 09:21:13,218 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-09-18 09:21:13,218 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5e2a2648]
+2018-09-18 09:21:13,219 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-09-18 09:21:13,221 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-09-18 09:21:13,232 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-09-18 09:21:13,233 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@2df557db]
+2018-09-18 09:21:13,233 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Looking for resource handler mappings
+2018-09-18 09:21:13,234 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-09-18 09:21:13,234 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+2018-09-18 09:21:13,234 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+2018-09-18 09:21:13,235 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Found resource handler mapping: URL pattern="/js/**", locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6ce400bb]
+2018-09-18 09:21:13,235 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Found resource handler mapping: URL pattern="/css/**", locations=[ServletContext resource [/css/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2b9510d3]
+2018-09-18 09:21:13,236 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Found resource handler mapping: URL pattern="/image/**", locations=[ServletContext resource [/image/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@4beecf42]
+2018-09-18 09:21:13,236 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Looking for resource handler mappings
+2018-09-18 09:21:13,236 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-09-18 09:21:13,237 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+2018-09-18 09:21:13,237 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+2018-09-18 09:21:13,237 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Found resource handler mapping: URL pattern="/js/**", locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6ce400bb]
+2018-09-18 09:21:13,238 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Found resource handler mapping: URL pattern="/css/**", locations=[ServletContext resource [/css/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2b9510d3]
+2018-09-18 09:21:13,238 DEBUG [org.springframework.web.servlet.resource.ResourceUrlProvider] - Found resource handler mapping: URL pattern="/image/**", locations=[ServletContext resource [/image/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@4beecf42]
+2018-09-18 09:21:13,239 DEBUG [org.springframework.jndi.JndiTemplate] - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2018-09-18 09:21:13,239 DEBUG [org.springframework.jndi.JndiLocatorDelegate] - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2018-09-18 09:21:13,240 DEBUG [org.springframework.jndi.JndiTemplate] - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2018-09-18 09:21:13,240 DEBUG [org.springframework.jndi.JndiPropertySource] - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2018-09-18 09:21:13,240 DEBUG [org.springframework.core.env.PropertySourcesPropertyResolver] - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-09-18 09:21:13,241 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Published WebApplicationContext of servlet 'taotao-manager-web' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.taotao-manager-web]
+2018-09-18 09:21:13,241 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'taotao-manager-web': initialization completed in 2217 ms
+2018-09-18 09:21:13,241 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Servlet 'taotao-manager-web' configured successfully
+2018-09-18 09:21:33,359 DEBUG [org.springframework.web.servlet.DispatcherServlet] - DispatcherServlet with name 'taotao-manager-web' processing GET request for [/]
+2018-09-18 09:21:33,364 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Looking up handler method for path /
+2018-09-18 09:21:33,367 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Returning handler method [public java.lang.String com.taotao.manager.controller.PageController.page2(javax.servlet.http.HttpServletRequest)]
+2018-09-18 09:21:33,367 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'pageController'
+2018-09-18 09:21:33,368 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Last-Modified value for [/] is: -1
+2018-09-18 09:21:33,407 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'index'
+2018-09-18 09:21:33,408 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/jsp/index.jsp]] in DispatcherServlet with name 'taotao-manager-web'
+2018-09-18 09:21:33,415 DEBUG [org.springframework.web.servlet.view.JstlView] - Forwarding to resource [/jsp/index.jsp] in InternalResourceView 'index'
+2018-09-18 09:21:34,372 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Successfully completed request
+2018-09-18 09:21:38,428 DEBUG [org.springframework.web.servlet.DispatcherServlet] - DispatcherServlet with name 'taotao-manager-web' processing GET request for [/item-add]
+2018-09-18 09:21:38,429 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Looking up handler method for path /item-add
+2018-09-18 09:21:38,430 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Returning handler method [public java.lang.String com.taotao.manager.controller.PageController.page(java.lang.String)]
+2018-09-18 09:21:38,431 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Returning cached instance of singleton bean 'pageController'
+2018-09-18 09:21:38,431 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Last-Modified value for [/item-add] is: -1
+2018-09-18 09:21:38,446 DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'item-add'
+2018-09-18 09:21:38,446 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Rendering view [org.springframework.web.servlet.view.JstlView: name 'item-add'; URL [/jsp/item-add.jsp]] in DispatcherServlet with name 'taotao-manager-web'
+2018-09-18 09:21:38,446 DEBUG [org.springframework.web.servlet.view.JstlView] - Added model object 'page' of type [java.lang.String] to request in view with name 'item-add'
+2018-09-18 09:21:38,446 DEBUG [org.springframework.web.servlet.view.JstlView] - Forwarding to resource [/jsp/item-add.jsp] in InternalResourceView 'item-add'
+2018-09-18 09:21:38,521 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Successfully completed request
+2018-09-18 09:21:38,553 DEBUG [org.springframework.web.servlet.DispatcherServlet] - DispatcherServlet with name 'taotao-manager-web' processing GET request for [/js/kindeditor-4.1.10/kindeditor-all-min.js]
+2018-09-18 09:21:38,553 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Looking up handler method for path /js/kindeditor-4.1.10/kindeditor-all-min.js
+2018-09-18 09:21:38,555 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Did not find handler method for [/js/kindeditor-4.1.10/kindeditor-all-min.js]
+2018-09-18 09:21:38,555 DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Matching patterns for request [/js/kindeditor-4.1.10/kindeditor-all-min.js] are [/js/**]
+2018-09-18 09:21:38,557 DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - URI Template variables for request [/js/kindeditor-4.1.10/kindeditor-all-min.js] are {}
+2018-09-18 09:21:38,558 DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapping [/js/kindeditor-4.1.10/kindeditor-all-min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6ce400bb]]] and 1 interceptor
+2018-09-18 09:21:38,559 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Last-Modified value for [/js/kindeditor-4.1.10/kindeditor-all-min.js] is: -1
+2018-09-18 09:21:38,594 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Null ModelAndView returned to DispatcherServlet with name 'taotao-manager-web': assuming HandlerAdapter completed request handling
+2018-09-18 09:21:38,594 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Successfully completed request
+2018-09-18 09:21:38,657 DEBUG [org.springframework.web.servlet.DispatcherServlet] - DispatcherServlet with name 'taotao-manager-web' processing GET request for [/js/kindeditor-4.1.10/lang/zh_CN.js]
+2018-09-18 09:21:38,657 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Looking up handler method for path /js/kindeditor-4.1.10/lang/zh_CN.js
+2018-09-18 09:21:38,659 DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Did not find handler method for [/js/kindeditor-4.1.10/lang/zh_CN.js]
+2018-09-18 09:21:38,659 DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Matching patterns for request [/js/kindeditor-4.1.10/lang/zh_CN.js] are [/js/**]
+2018-09-18 09:21:38,659 DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - URI Template variables for request [/js/kindeditor-4.1.10/lang/zh_CN.js] are {}
+2018-09-18 09:21:38,660 DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapping [/js/kindeditor-4.1.10/lang/zh_CN.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6ce400bb]]] and 1 interceptor
+2018-09-18 09:21:38,660 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Last-Modified value for [/js/kindeditor-4.1.10/lang/zh_CN.js] is: -1
+2018-09-18 09:21:38,661 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Null ModelAndView returned to DispatcherServlet with name 'taotao-manager-web': assuming HandlerAdapter completed request handling
+2018-09-18 09:21:38,661 DEBUG [org.springframework.web.servlet.DispatcherServlet] - Successfully completed request

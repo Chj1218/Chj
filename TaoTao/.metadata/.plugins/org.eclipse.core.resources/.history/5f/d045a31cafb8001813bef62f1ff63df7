@@ -1,0 +1,11 @@
+package com.taotao.util;
+
+public class LocalFileWriter implements FileWriter {
+
+	@Override
+	public FileWriteResult write(byte[] bytes, String dir, String extName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

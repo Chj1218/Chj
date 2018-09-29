@@ -1,0 +1,21 @@
+package com.taotao.util;
+
+public class SocketFileWriter implements FileWriter {
+	
+	private String fileRootDirectory; 
+	
+	public String getFileRootDirectory() {
+		return fileRootDirectory;
+	}
+
+	public void setFileRootDirectory(String fileRootDirectory) {
+		this.fileRootDirectory = fileRootDirectory;
+	}
+
+	@Override
+	public FileWriteResult write(byte[] bytes, String dir, String extName) {
+		
+		return null;
+	}
+
+}

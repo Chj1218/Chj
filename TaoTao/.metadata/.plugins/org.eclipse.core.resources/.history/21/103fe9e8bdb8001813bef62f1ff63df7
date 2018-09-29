@@ -1,0 +1,30 @@
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class Upload {
+
+	public static void main(String[] args)throws Exception {
+		// TODO Auto-generated method stub
+		URL url = new URL("http://192.168.31.172/download/upload/abc.jpg");
+		
+		URLConnection connection = url.openConnection();
+		connection.setDoOutput(true);
+		OutputStream out = connection.getOutputStream();
+		String path = "E:/timg.jpg";
+		InputStream is = new FileInputStream(path);
+		
+		byte [] buf = new byte [256];
+		int len;
+		while((len=is.read(buf))!=-1) {
+			out.write(buf,0,len);
+		}
+		is.close();
+		connection.connect();
+		
+		
+	}
+
+}

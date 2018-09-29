@@ -1,0 +1,7 @@
+package com.taotao.easyui;
+
+public class EasyUIDataGridResult<T> {
+	private Integer total;
+	private List<T> rows; 
+	
+}

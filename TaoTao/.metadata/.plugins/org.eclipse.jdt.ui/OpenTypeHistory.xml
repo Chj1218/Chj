@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=taotao-manager-service/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.0.8.RELEASE\/spring-webmvc-5.0.8.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1536287856935"/>
+<typeInfo handle="=taotao-manager-dao/C:\/Users\/Administrator\/.m2\/repository\/org\/mybatis\/mybatis-spring\/1.3.2\/mybatis-spring-1.3.2.jar&lt;org.mybatis.spring(SqlSessionFactoryBean.class[SqlSessionFactoryBean" modifiers="33" timestamp="1535523504792"/>
+<typeInfo handle="=taotao-manager-service/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.0.8.RELEASE\/spring-jdbc-5.0.8.RELEASE.jar&lt;org.springframework.jdbc.datasource(DataSourceTransactionManager.class[DataSourceTransactionManager" modifiers="33" timestamp="1536325914822"/>
+<typeInfo handle="=taotao-manager-dao/C:\/Users\/Administrator\/.m2\/repository\/com\/alibaba\/druid\/1.0.9\/druid-1.0.9.jar&lt;com.alibaba.druid.pool(DruidDataSource.class[DruidDataSource" modifiers="33" timestamp="1534781867442"/>
+<typeInfo handle="=taotao-manager-service/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.0.8.RELEASE\/spring-webmvc-5.0.8.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1536287856935"/>
+<typeInfo handle="=taotao-manager-service/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-web\/5.0.8.RELEASE\/spring-web-5.0.8.RELEASE.jar&lt;org.springframework.web.multipart.commons(CommonsMultipartResolver.class[CommonsMultipartResolver" modifiers="33" timestamp="1536287857388"/>
+<typeInfo handle="=taotao-common/src\/main\/java&lt;com.taotao.util{FileWriter.java[FileWriter" modifiers="513" timestamp="1536991621116"/>
+<typeInfo handle="=taotao-manager-web/C:\/Users\/Administrator\/.m2\/repository\/javax\/servlet\/javax.servlet-api\/3.1.0\/javax.servlet-api-3.1.0.jar&lt;javax.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1534833360916"/>
+<typeInfo handle="=taotao-manager-web/C:\/Users\/Administrator\/.m2\/repository\/javax\/servlet\/servlet-api\/2.4\/servlet-api-2.4.jar&lt;javax.servlet(ServletContextAttributeListener.class[ServletContextAttributeListener" modifiers="1537" timestamp="1536884408072"/>
+<typeInfo handle="=taotao-manager-service/src\/main\/java&lt;com.taotao.manager.service{ItemService.java[ItemService" modifiers="513" timestamp="1537147459151"/>
+<typeInfo handle="=taotao-manager-service/src\/main\/java&lt;com.taotao.manager.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1537152138447"/>
+</typeInfoHistroy>

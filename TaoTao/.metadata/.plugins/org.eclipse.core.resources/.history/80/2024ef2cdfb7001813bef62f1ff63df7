@@ -1,0 +1,9 @@
+package com.taotao.dao.test;
+
+public class ItemCatMapperTest {
+	
+	
+	public void testSelect() {
+		
+	}
+}
